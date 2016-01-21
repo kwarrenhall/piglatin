@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width" name="viewport">
-    <title></title>
+    <title>Pig Latin</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href=
     "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
@@ -18,14 +16,27 @@
     </script>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
       <div class= "jumbotron">
-        <h1>Pig Latin Translator</h1>
-      </div>
+        <h1>Pig Latin Translator</h1> -->
+      <!-- </div> -->
+      <form id="pig-latin">
+         <div class="form-group">
+           <label for="word">Enter a word and translate it to piglatin:</label>
+           <input id="word" type="text">
+         </div>
+
+         <button id=buttonSubmit type="submit" class="btn">Translate!</button>
+      </form>
+      <p>
+        The translation is <span class="translate"></span>
+      </p>
+
+      <!-- <div class="form group">
         <form action="index.html" id="pigLatin" method="post" name="pigLatin">
             <input class="form-control" placeholder="Text input" type="text">
             <button class="btn btn-default" type="submit">submit</button>
-        </form>
+        </form> -->
     </div>
 </body>
 </html>
